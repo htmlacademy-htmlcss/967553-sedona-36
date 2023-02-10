@@ -15,15 +15,17 @@
             <img class="logo-main" src="images/logo-main.svg" width="140" height="70" alt="Городок Седона">
           </a>
           <ul class="navigation-list">
-            <li class="navigation-list-item">
+            <li class="navigation-list-item item-main">
               <a href="index.html">Главная</a>
             </li>
-            <li class="navigation-list-item">
-              <a href="index.html/#about-sedona">О седоне</a>
+            <li class="navigation-list-item item-about">
+              <a href="index.html#about-sedona">О седоне</a>
             </li>
-            <li class="navigation-list-item">
+            <li class="navigation-list-item item-catalog">
               <a href="#">Гостиницы</a>
             </li>
+          </ul>
+          <ul class="navigation-list navigation-icons">
             <li class="navigation-list-item item-search">
               <a class="navigation-list-link" href="#">
                 <img src="images/icons/search.svg" width="18" height="18" alt="Поиск">
@@ -36,7 +38,7 @@
                 <span class="visually-hidden">Избранное</span>
               </a>
             </li>
-            <li class="navigation-list-item">
+            <li class="navigation-list-item item-button">
               <a class="button button-search" href="#">Хочу сюда!</a>
             </li>
           </ul>
@@ -111,24 +113,26 @@
                 </ul>
                 <input class="range" type="range" min="0" max="10000" step="500" value="9000">
               </fieldset>
-              <section class="hotel-filter-buttons">
+              <div class="hotel-filter-buttons">
                 <button class="button-submit" type="submit">Применить</button>
                 <button class="button-reset" type="reset">Сбросить</button>
-              </section>
+              </div>
             </form>
           </section>
         </header>
         <section class="catalog">
           <section class="sorting-field">
-            <h2>Найдено гостиниц: 38</h2>
+            <h2 class="sorting-title">Найдено гостиниц: 38</h2>
             <select class="sorting-variants">
               <option value="cheap">Сначала дешевые</option>
               <option value="expensive">Сначала дорогие</option>
             </select>
-            <p class="visually-hidden">Режим отображения</p>
-            <button class="button-tile"></button>
-            <button class="button-slides"></button>
-            <button class="button-list"></button>
+            <div class="sorting-buttons">
+              <p class="visually-hidden">Режим отображения</p>
+              <button class="button-tile"></button>
+              <button class="button-slides"></button>
+              <button class="button-list"></button>
+            </div>
           </section>
           <section class="catalog-view" id="catalog-list">
             <h2 class="visually-hidden">Каталог гостиниц</h2>

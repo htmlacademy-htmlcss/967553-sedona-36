@@ -66,6 +66,7 @@ body p {
   text-transform: uppercase;
   color: white;
   margin: 0;
+  cursor: pointer;
 }
 
 .container {
@@ -200,10 +201,9 @@ li.item-catalog {
 
 /* секция 3х3 - текст + картинки*/
 
-.advantages-list ul {
+.advantages-list {
   list-style: none;
   margin: 0;
-  margin-top: 21px;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(3, minmax(400px, 1200px));
@@ -238,8 +238,6 @@ li.light-blue-item {
 }
 
 .advantages-text-block {
-  display: flex;
-  flex-direction: column;
   width: 400px;
   min-height: 385px;
   margin: 0;
@@ -293,25 +291,18 @@ li.light-blue-item {
   margin: 0;
 }
 
-.services-invite {
+.service-invite-title {
   display: block;
-  width: 505px;
-  height: 118px;
-  margin: 64px 348px;
-}
-
-.services-invite h2 {
-  margin: 0;
-  margin-bottom: 20px;
+  margin: 64px 348px 20px;
   padding: 0;
   text-align: center;
 }
 
-.services-invite p {
+.service-invite-text {
+  display: block;
   font-size: 22px;
   line-height: 26px;
-  margin: 0;
-  margin-bottom: 64px;
+  margin: 20px 355px 64px;
 }
 
 ul.services-list {
@@ -362,6 +353,9 @@ li.item-souvenirs::before {
 }
 
 li.item-food {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: white;
 }
 
@@ -377,7 +371,6 @@ h3.service-info-title {
 
 .item-food p {
   margin: 0;
-  text-align: center;
 }
 
 .item-souvenirs p {
@@ -425,7 +418,6 @@ h3.service-info-title {
   line-height: 36px;
   font-weight: 700;
   color: white;
-  text-align: none;
   text-transform: uppercase;
 }
 
@@ -473,6 +465,8 @@ h3.service-info-title {
   padding: 8px 50px;
   background-color: #82B3D3;
   border-color: #82B3D3;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   border-style: none;
@@ -704,7 +698,6 @@ footer ul {
   background-color: #82B3D3;
   border: 1px #82B3D3 solid;
   border-radius: 4px;
-  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -721,7 +714,6 @@ footer ul {
   height: 34px;
   border: 0;
   background: none;
-  cursor: pointer;
   margin: 0;
   font-weight: 700;
   font-size: 16px;
@@ -977,7 +969,7 @@ footer ul {
   border-top: 1px #E6E6E6 solid;
 }
 
-.pagination ol {
+.pagination-list {
   display: flex;
   list-style: none;
   margin: 0;
@@ -1086,6 +1078,7 @@ footer ul {
   padding: 8px 50px;
   background-color: #82B3D3;
   border-color: #82B3D3;
+  border-top-right-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   border-style: none;

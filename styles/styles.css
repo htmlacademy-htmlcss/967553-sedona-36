@@ -355,6 +355,9 @@ li.item-souvenirs::before {
 }
 
 li.item-food {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: white;
 }
 
@@ -370,7 +373,6 @@ h3.service-info-title {
 
 .item-food p {
   margin: 0;
-  text-align: center;
 }
 
 .item-souvenirs p {

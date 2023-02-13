@@ -201,10 +201,9 @@ li.item-catalog {
 
 /* секция 3х3 - текст + картинки*/
 
-.advantages-list ul {
+.advantages-list {
   list-style: none;
   margin: 0;
-  margin-top: 21px;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(3, minmax(400px, 1200px));
@@ -294,25 +293,18 @@ li.light-blue-item {
   margin: 0;
 }
 
-.services-invite {
+.service-invite-title {
   display: block;
-  width: 505px;
-  height: 118px;
-  margin: 64px 348px;
-}
-
-.services-invite h2 {
-  margin: 0;
-  margin-bottom: 20px;
+  margin: 64px 348px 20px;
   padding: 0;
   text-align: center;
 }
 
-.services-invite p {
+.service-invite-text {
+  display: block;
   font-size: 22px;
   line-height: 26px;
-  margin: 0;
-  margin-bottom: 64px;
+  margin: 20px 355px 64px;
 }
 
 ul.services-list {
@@ -363,6 +355,9 @@ li.item-souvenirs::before {
 }
 
 li.item-food {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: white;
 }
 
@@ -378,7 +373,6 @@ h3.service-info-title {
 
 .item-food p {
   margin: 0;
-  text-align: center;
 }
 
 .item-souvenirs p {
@@ -426,7 +420,6 @@ h3.service-info-title {
   line-height: 36px;
   font-weight: 700;
   color: white;
-  text-align: none;
   text-transform: uppercase;
 }
 
@@ -978,7 +971,7 @@ footer ul {
   border-top: 1px #E6E6E6 solid;
 }
 
-.pagination ol {
+.pagination-list {
   display: flex;
   list-style: none;
   margin: 0;

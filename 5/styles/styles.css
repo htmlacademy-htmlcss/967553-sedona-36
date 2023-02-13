@@ -238,8 +238,6 @@ li.light-blue-item {
 }
 
 .advantages-text-block {
-  display: flex;
-  flex-direction: column;
   width: 400px;
   min-height: 385px;
   margin: 0;

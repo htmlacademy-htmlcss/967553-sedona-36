@@ -120,18 +120,14 @@ nav a:visited:not(.button-search) {
   justify-items: center;
 }
 
+.navigation-list:not(.navigation-icons) {
+  gap: 32px;
+  margin-right: 315px;
+}
+
 .navigation-list img {
   align-items: center;
   vertical-align: middle;
-}
-
-li.item-main,
-li.item-about {
-  margin-right: 32px;
-}
-
-li.item-catalog {
-  margin-right: 315px;
 }
 
 .navigation-list-item.item-search {

@@ -15,13 +15,13 @@
             <img class="logo-main" src="images/logo-main.svg" width="140" height="70" alt="Городок Седона">
           </a>
           <ul class="navigation-list">
-            <li class="navigation-list-item item-main">
+            <li class="navigation-list-item">
               <a href="index.html">Главная</a>
             </li>
-            <li class="navigation-list-item item-about">
+            <li class="navigation-list-item">
               <a href="index.html#about-sedona">О седоне</a>
             </li>
-            <li class="navigation-list-item item-catalog">
+            <li class="navigation-list-item active-item">
               <a href="#">Гостиницы</a>
             </li>
           </ul>
@@ -66,18 +66,18 @@
               <fieldset class="hotel-filter-group">
                 <legend class="hotel-filter-title">Инфраструктура:</legend>
                 <ul class="hotel-filter-list">
-                  <li>
+                  <li class="control-filter-item">
                     <label class="control">
                       <input class="control-input" type="checkbox" name="Pool" checked>Бассейн
                     </label>
                   </li>
-                  <li>
-                    <label>
+                  <li class="control-filter-item">
+                    <label class="control">
                       <input class="control-input" type="checkbox" name="Parking" checked>Парковка
                     </label>
                   </li>
-                  <li>
-                    <label>
+                  <li class="control-filter-item">
+                    <label class="control">
                       <input class="control-input" type="checkbox" name="WiFi">Wi-Fi
                     </label>
                 </ul>
@@ -87,17 +87,17 @@
                 <ul class="hotel-filter-list">
                   <li>
                     <label class="control">
-                      <input class="control-input" type="radio" name="Hotel" checked>Гостиница
+                      <input class="control-input" type="radio" name="radio-button" checked>Гостиница
                     </label>
                   </li>
                   <li>
                     <label>
-                      <input class="control-input" type="radio" name="Motel">Мотель
+                      <input class="control-input" type="radio" name="radio-button">Мотель
                     </label>
                   </li>
                   <li>
                     <label>
-                      <input class="control-input" type="radio" name="Appartaments">Апартаменты
+                      <input class="control-input" type="radio" name="radio-button">Апартаменты
                     </label>
                 </ul>
               </fieldset>
@@ -147,7 +147,7 @@
                   <dd>От 4000 ₽</dd>
                 </dl>
                 <div class="catalog-card-buttons">
-                  <a class="about-link" href="#">подробнее</a>
+                  <a class=" button about-link" href="#">подробнее</a>
                   <button class="catalog-button">в избранное</button>
                 </div>
                 <div class="hotel-raiting">
@@ -167,7 +167,7 @@
                   <dd>От 5000 ₽</dd>
                 </dl>
                 <div class="catalog-card-buttons">
-                  <a class="about-link" href="#">подробнее</a>
+                  <a class=" button about-link" href="#">подробнее</a>
                   <button class="catalog-button-chosen">в избранном</button>
                 </div>
                 <div class="hotel-raiting">
@@ -186,7 +186,7 @@
                   <dd>От 2500 ₽</dd>
                 </dl>
                 <div class="catalog-card-buttons">
-                  <a class="about-link" href="#">подробнее</a>
+                  <a class="button about-link" href="#">подробнее</a>
                   <button class="catalog-button">в избранное</button>
                 </div>
                 <div class="hotel-raiting">
@@ -205,7 +205,7 @@
                   <dd>От 1500 ₽</dd>
                 </dl>
                 <div class="catalog-card-buttons">
-                  <a class="about-link" href="#">подробнее</a>
+                  <a class="button about-link" href="#">подробнее</a>
                   <button class="catalog-button">в избранное</button>
                 </div>
                 <div class="hotel-raiting">
@@ -243,7 +243,7 @@
           <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="catalog-subscription-form" action="#" method="get">
             <input class="catalog-subscription-email" id="email" type="email" placeholder="Ваш e-mail">
-            <input class="catalog-subscription-submit" type="submit" value="Подписаться">
+            <input class="subscription-submit" type="submit" value="Подписаться">
           </form>
         </section>
       </main>

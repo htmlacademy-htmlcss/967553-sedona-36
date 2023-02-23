@@ -561,11 +561,25 @@ footer ul {
   align-items: center;
 }
 
+.social-icon {
+  fill: #83B3D3;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+  fill: #68A2CA;
+}
+
+.social-icon:active {
+  fill: #68A2CA;
+  opacity: 30%;
+}
+
 .footer-phone-number {
   width: 330px;
   height: 40px;
-  margin: 0 41px;
-  padding: 5px 195px;
+  margin: auto 236px auto 235px;
+  /* padding: 5px 195px; */
   text-decoration: none;
   font-weight: 400;
   font-size: 40px;
@@ -587,6 +601,18 @@ footer ul {
   display: flex;
   margin: auto;
   align-items: center;
+  color: #000000;
+}
+
+.footer-logo-link:hover,
+.footer-logo-link:focus {
+  fill: #756157;
+  opacity: 100%;
+}
+
+.footer-logo-link:active {
+  fill: #756157;
+  opacity: 30%;
 }
 
 /* далее для страницы catalog.html */

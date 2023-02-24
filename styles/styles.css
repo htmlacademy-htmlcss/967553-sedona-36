@@ -33,7 +33,7 @@ body h2 {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
-  color: black;
+  color: #000000;
   text-transform: uppercase;
   text-align: center;
 }
@@ -42,7 +42,7 @@ body h3 {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
-  color: black;
+  color: #000000;
   text-transform: uppercase;
   text-align: center;
 }
@@ -64,7 +64,7 @@ body p {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
   margin: 0;
   cursor: pointer;
 }
@@ -114,12 +114,12 @@ nav a {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  color: black;
+  color: #000000;
   text-transform: capitalize;
 }
 
 nav a:visited:not(.button-search) {
-  color: black;
+  color: #000000;
 }
 
 .navigation-list {
@@ -174,7 +174,7 @@ nav a:visited:not(.button-search) {
   height: 20px;
   border: none;
   padding: 8px 34px;
-  color: white;
+  color: #ffffff;
   margin: 0;
 }
 
@@ -383,7 +383,7 @@ li.item-food {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 h3.service-info-title {
@@ -444,7 +444,7 @@ h3.service-info-title {
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -455,7 +455,7 @@ h3.service-info-title {
 }
 
 .subscription h2 {
-  color: white;
+  color: #ffffff;
   margin: 0;
   margin-bottom: 20px;
 }
@@ -463,7 +463,7 @@ h3.service-info-title {
 .subscription p {
   font-size: 22px;
   line-height: 26px;
-  color: white;
+  color: #ffffff;
   margin: 0 104px 54px 104px;
 }
 
@@ -585,7 +585,7 @@ footer ul {
   font-size: 40px;
   line-height: 40px;
   text-align: center;
-  color: black;
+  color: #000000;
 }
 
 .footer-phone-number:hover,
@@ -626,7 +626,7 @@ footer ul {
 }
 
 .inner-header h1 {
-  color: white;
+  color: #ffffff;
   margin: 0;
   margin-bottom: 8px;
 }
@@ -644,7 +644,7 @@ footer ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
-  color: white;
+  color: #ffffff;
 }
 
 .breadcrubs li {
@@ -680,7 +680,7 @@ footer ul {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  color: white;
+  color: #ffffff;
   text-transform: capitalize;
   margin: 0;
   margin-bottom: 34px;
@@ -701,7 +701,7 @@ footer ul {
 .control {
   font-size: 18px;
   line-height: 23px;
-  color: white;
+  color: #ffffff;
 }
 
 .hotel-cost {
@@ -777,7 +777,7 @@ footer ul {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
 }
 
 .button-submit:hover,
@@ -808,7 +808,7 @@ footer ul {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
 }
 
 .button-reset:hover {
@@ -925,7 +925,7 @@ footer ul {
 .catalog-list-item-link {
   text-decoration: none;
   margin: 0;
-  color: black;
+  color: #000000;
 }
 
 .catalog-list h3 {
@@ -991,7 +991,7 @@ footer ul {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
 }
 
 .catalog-button {
@@ -1008,7 +1008,7 @@ footer ul {
   line-height: 20px;
   font-weight: 700;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -1031,7 +1031,7 @@ footer ul {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
 }
 
 .catalog-button-chosen:hover,
@@ -1203,7 +1203,7 @@ footer ul {
 } */
 
 .button-pagination-next {
-  color: black;
+  color: #000000;
 }
 
 .catalog-subscription {
@@ -1253,7 +1253,7 @@ footer ul {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
   align-items: center;
   justify-content: center;

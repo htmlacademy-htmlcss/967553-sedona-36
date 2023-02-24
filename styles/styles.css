@@ -860,38 +860,36 @@ footer ul {
   margin-right: 70px;
 }
 
-.sorting-buttons {
+.sorting-buttons-list {
   min-width: 160px;
   height: 48px;
   display: flex;
   gap: 8px;
 }
 
-.button-tile {
+.sorting-button {
+  display: flex;
   width: 48px;
   height: 48px;
-  background: url("../images/icons/tile.png");
-  border: none;
+  border: 2px #E5E5E5 solid;
+  border-radius: 4px;
+  background-color: #ffffff;
   margin: 0;
   padding: 0;
+  align-items: center;
+  justify-content: center;
 }
 
-.button-slides {
-  width: 48px;
-  height: 48px;
-  background: url("../images/icons/slides.png");
-  border: none;
-  margin: 0;
-  padding: 0;
+.sorting-button:hover {
+  border-color: #000000;
 }
 
-.button-list {
-  width: 48px;
-  height: 48px;
-  background: url("../images/icons/list.png");
-  border: none;
-  margin: 0;
-  padding: 0;
+.sorting-button:focus {
+  border-color: #68A2CA;
+}
+
+.sorting-button:active {
+  border-color: #000000;
 }
 
 /* Каталог */

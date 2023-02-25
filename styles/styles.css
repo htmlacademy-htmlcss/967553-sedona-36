@@ -450,6 +450,7 @@ h3.service-info-title {
 
 .subscription {
   background-image: url("../images/subscription-background.jpg");
+  background-color: #68A2CA;
   background-size: 1200px auto;
   padding: 96px 258px 104px 258px;
 }
@@ -619,6 +620,7 @@ footer ul {
 
 .inner-header {
   background-image: url("../images/filter-background.jpg");
+  background-color: #68A2CA;
   background-repeat: no-repeat;
   background-size: 1200px 412px;
   padding: 35px 70px 34px 70px;

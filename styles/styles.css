@@ -740,7 +740,7 @@ footer ul {
   opacity: 60%;
 }
 
-.control:focus .control-mark {
+.control:focus-within .control-mark {
   outline: 3px solid #83b3d3;
 }
 
@@ -1411,5 +1411,14 @@ footer ul {
 }
 
 .visually-hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }

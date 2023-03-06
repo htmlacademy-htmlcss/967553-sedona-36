@@ -15,35 +15,37 @@
           <a class="navigation-logo" href="#">
             <img class="logo-main" src="images/logo-main.svg" width="140" height="70" alt="Городок Седона.">
           </a>
-          <ul class="navigation-list">
-            <li class="navigation-list-item active-item">
-              <a class="navigation-link" href="#">Главная</a>
-            </li>
-            <li class="navigation-list-item">
-              <a class="navigation-link" href="#about-sedona">О седоне</a>
-            </li>
-            <li class="navigation-list-item">
-              <a class="navigation-link" href="catalog.html">Гостиницы</a>
-            </li>
-          </ul>
-          <ul class="navigation-list navigation-icons">
-            <li class="navigation-list-item item-search">
-              <a class="navigation-list-link" href="#">
-                <img src="images/icons/search.svg" width="18" height="18" alt="Поиск.">
-                <span class="visually-hidden">Поиск</span>
-              </a>
-            </li>
-            <li class="navigation-list-item item-favourite">
-              <a class="navigation-list-link" href="#">
-                <img src="images/icons/favourite.svg" width="18" height="17" alt="Избранное.">
-                <span class="visually-hidden">Избранное</span>
-                <span class="favourite-number">12</span>
-              </a>
-            </li>
-            <li class="navigation-list-item item-button">
-              <a class="button button-search" href="#modal">Хочу сюда!</a>
-            </li>
-          </ul>
+          <div class="navigation-box">
+            <ul class="navigation-list">
+              <li class="navigation-list-item active-item">
+                <a class="navigation-link" href="#">Главная</a>
+              </li>
+              <li class="navigation-list-item">
+                <a class="navigation-link" href="#about-sedona">О седоне</a>
+              </li>
+              <li class="navigation-list-item">
+                <a class="navigation-link" href="catalog.html">Гостиницы</a>
+              </li>
+            </ul>
+            <ul class="navigation-list navigation-icons">
+              <li class="navigation-list-item item-search">
+                <a class="navigation-list-link" href="#">
+                  <img src="images/icons/search.svg" width="18" height="18" alt="Поиск.">
+                  <span class="visually-hidden">Поиск</span>
+                </a>
+              </li>
+              <li class="navigation-list-item item-favourite">
+                <a class="navigation-list-link" href="#">
+                  <img src="images/icons/favourite.svg" width="18" height="17" alt="Избранное.">
+                  <span class="visually-hidden">Избранное</span>
+                  <span class="favourite-number">12</span>
+                </a>
+              </li>
+              <li class="navigation-list-item item-button">
+                <a class="button button-search" href="#modal">Хочу сюда!</a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </header>
       <main>
@@ -295,7 +297,7 @@
                 <label class="search-label people-amount">
                   <span>взрослые:</span>
                   <input class="people-counter" type="number" name="people-amount" value="2">
-                  <button class=" counter-button button-minus">
+                  <button class="counter-button button-minus">
                     <svg class="counter-icon minus-icon" width="14" height="2" viewBox="0 0 14 2" fill="curentcolor"
                       xmlns="http://www.w3.org/2000/svg">
                       <path d="M0 0L0 2L14 2V0L0 0Z" fill="curentcolor" fill-opacity="1.0" />
@@ -310,7 +312,7 @@
                 </label>
                 <label class="search-label people-amount">
                   <span>дети:</span>
-                  <span class="information-item">
+                  <div class="information-item">
                     <svg class="information-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
                       xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" clip-rule="evenodd" d="M9 4H11V6H9V4ZM11 16H9V7H11V16Z" fill="white" />
@@ -320,7 +322,7 @@
                         вами, возраст которых от 6 до 18
                         лет. <span class="uppercase">д</span>ети до 6 лет размещаются бесплатно.</p>
                     </div>
-                  </span>
+                  </div>
                   <input class="people-counter" type="number" name="people-amount" value="2">
                   <button class="counter-button second-button-minus">
                     <svg class="counter-icon minus-icon" width="14" height="2" viewBox="0 0 14 2" fill="curentcolor"

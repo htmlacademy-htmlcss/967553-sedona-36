@@ -15,50 +15,49 @@
           <a class="navigation-logo" href="index.html">
             <img class="logo-main" src="images/logo-main.svg" width="140" height="70" alt="Городок Седона.">
           </a>
-          <ul class="navigation-list">
-            <li class="navigation-list-item">
-              <a href="index.html">Главная</a>
-            </li>
-            <li class="navigation-list-item">
-              <a href="index.html#about-sedona">О седоне</a>
-            </li>
-            <li class="navigation-list-item active-item">
-              <a href="#">Гостиницы</a>
-            </li>
-          </ul>
-          <ul class="navigation-list navigation-icons">
-            <li class="navigation-list-item item-search">
-              <a class="navigation-list-link" href="#">
-                <img src="images/icons/search.svg" width="18" height="18" alt="Поиск.">
-                <span class="visually-hidden">Поиск</span>
-              </a>
-            </li>
-            <li class="navigation-list-item item-favourite">
-              <a class="navigation-list-link" href="#">
-                <img src="images/icons/favourite.svg" width="18" height="17" alt="Избранное.">
-                <span class="visually-hidden">Избранное</span>
-                <span class="favourite-number">12</span>
-              </a>
-            </li>
-            <li class="navigation-list-item item-button">
-              <a class="button button-search" href="#">Хочу сюда!</a>
-            </li>
-          </ul>
+          <div class="navigation-box">
+            <ul class="navigation-list">
+              <li class="navigation-list-item">
+                <a href="index.html">Главная</a>
+              </li>
+              <li class="navigation-list-item">
+                <a class="navigation-link" href="#about-sedona">О седоне</a>
+              </li>
+              <li class="navigation-list-item active-item">
+                <a href="#">Гостиницы</a>
+              </li>
+            </ul>
+            <ul class="navigation-list navigation-icons">
+              <li class="navigation-list-item item-search">
+                <a class="navigation-list-link" href="#">
+                  <img src="images/icons/search.svg" width="18" height="18" alt="Поиск.">
+                  <span class="visually-hidden">Поиск</span>
+                </a>
+              </li>
+              <li class="navigation-list-item item-favourite">
+                <a class="navigation-list-link" href="#">
+                  <img src="images/icons/favourite.svg" width="18" height="17" alt="Избранное.">
+                  <span class="visually-hidden">Избранное</span>
+                  <span class="favourite-number">12</span>
+                </a>
+              </li>
+              <li class="navigation-list-item item-button">
+                <a class="button button-search" href="#modal">Хочу сюда!</a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </header>
       <main class="main-inner">
         <header class="inner-header">
           <h1>Гостиницы Седоны</h1>
           <ul class="breadcrubs">
-            <li>
+            <li class="home-link">
               <a href="index.html">
                 <img src="images/icons/home.svg" width="12" height="12" alt="На главную.">
               </a>
             </li>
-            <li>
-              <img src="images/icons/arrow.svg" width="6" height="10" alt="Далее.">
-            </li>
-            <li>
+            <li class="hotels-link">
               <a class="breadcrubs-link" href="#">Гостиницы</a>
             </li>
           </ul>
@@ -193,7 +192,8 @@
             <h2 class="visually-hidden">Каталог гостиниц</h2>
             <ul class="catalog-list">
               <li>
-                <img src="images/catalog/hotel-1.jpg" width="300" height="212" alt="Фото Гостиницы Amara resort & Spa.">
+                <img class="catalog-image" src="images/catalog/hotel-1.jpg" width="300" height="212"
+                  alt="Фото Гостиницы Amara resort & Spa.">
                 <a class="catalog-list-item-link" href="#">
                   <h3>Amara Resort & Spa</h3>
                 </a>
@@ -216,7 +216,7 @@
                 </div>
               </li>
               <li>
-                <img src="images/catalog/hotel-2.jpg" width="300" height="212"
+                <img class="catalog-image" src="images/catalog/hotel-2.jpg" width="300" height="212"
                   alt="Фото Гостиницы Villas at Poco Diablo">
                 <a class="catalog-list-item-link" href="#">
                   <h3>Villas at Poco Diablo</h3>
@@ -240,7 +240,8 @@
                 </div>
               </li>
               <li>
-                <img src="images/catalog/hotel-3.jpg" width="300" height="212" alt="Фото Гостиницы Desert Quail Inn.">
+                <img class="catalog-image" src="images/catalog/hotel-3.jpg" width="300" height="212"
+                  alt="Фото Гостиницы Desert Quail Inn.">
                 <a class="catalog-list-item-link" href="#">
                   <h3>Desert Quail Inn</h3>
                 </a>
@@ -262,7 +263,8 @@
                 </div>
               </li>
               <li>
-                <img src="images/catalog/hotel-4.jpg" width="300" height="212" alt="Фото Гостиницы GreenTree Inn.">
+                <img class="catalog-image" src="images/catalog/hotel-4.jpg" width="300" height="212"
+                  alt="Фото Гостиницы GreenTree Inn.">
                 <a class="catalog-list-item-link" href="#">
                   <h3>GreenTree Inn</h3>
                 </a>
@@ -283,7 +285,7 @@
                 </div>
               </li>
             </ul>
-            <hr class="hr-line">
+            <!-- <hr class="hr-line"> -->
           </section>
           <ol class="pagination-list">
             <li class="pagination-item">

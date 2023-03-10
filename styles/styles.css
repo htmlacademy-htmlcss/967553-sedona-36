@@ -1085,7 +1085,7 @@ h3.service-info-title {
   margin-left: 10px;
 }
 
-.information-item:hover .modal-popover {
+.information-item:hover ~ .modal-popover {
   z-index: 10;
   opacity: 1;
   visibility: visible;
@@ -1113,15 +1113,11 @@ h3.service-info-title {
   background-color: #333333;
   -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.3);
-}
-
-.popover-text {
   color: #ffffff;
   font-size: 16px;
   line-height: 20px;
   text-align: left;
   margin: 0;
-  padding: 0;
   text-transform: none;
 }
 

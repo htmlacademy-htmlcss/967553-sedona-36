@@ -1085,7 +1085,7 @@ h3.service-info-title {
   margin-left: 10px;
 }
 
-.information-item:hover .modal-popover {
+.information-item:hover ~ .modal-popover {
   z-index: 10;
   opacity: 1;
   visibility: visible;
@@ -1113,15 +1113,11 @@ h3.service-info-title {
   background-color: #333333;
   -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.3);
-}
-
-.popover-text {
   color: #ffffff;
   font-size: 16px;
   line-height: 20px;
   text-align: left;
   margin: 0;
-  padding: 0;
   text-transform: none;
 }
 
@@ -1153,16 +1149,17 @@ h3.service-info-title {
 }
 
 .people-counter {
-  width: 10px;
+  width: 22px;
   height: 20px;
   background-color: #f2f2f2;
   border: none;
   border-radius: 4px;
   margin-left: 46px;
-  padding: 14px 50px;
+  padding: 14px 44px;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+  text-align: center;
 }
 
 .people-counter::-webkit-outer-spin-button,
@@ -1196,23 +1193,23 @@ h3.service-info-title {
 }
 
 .button-minus {
-  top: 14px;
-  left: 147px;
+  top: 370px;
+  left: 217px;
 }
 
 .button-plus {
-  top: 14px;
-  right: 9px;
+  top: 370px;
+  left: 288px;
 }
 
 .second-button-minus {
-  top: 14px;
-  left: 141px;
+  top: 370px;
+  right: 151px;
 }
 
 .second-button-plus {
-  top: 14px;
-  right: 12px;
+  top: 370px;
+  right: 80px;
 }
 
 input[type=date]::-webkit-calendar-picker-indicator {
@@ -1226,7 +1223,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   border: none;
   border-radius: 4px;
   padding: 12px 20px;
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans";
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
@@ -2036,9 +2033,10 @@ li.hotels-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   text-decoration: none;
-  width: 140px;
-  height: 36px;
+  width: 88px;
+  min-height: 20px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -2049,6 +2047,7 @@ li.hotels-link {
   border: none;
   border-radius: 4px;
   margin: 0;
+  padding: 8px 26px;
 }
 
 .about-link {
@@ -2176,17 +2175,19 @@ li.hotels-link {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  width: 98px;
-  min-height: 22px;
+  width: 120px;
+  min-height: 21px;
   font-size: 16px;
   line-height: 20px;
   color: #333333;
   text-transform: uppercase;
   margin: 0;
-  padding: 7px 20px;
+  padding: 9px 10px 8px;
   background-color: #F2F2F2;
-  border: 1px #f2f2f2 solid;
+  border: none;
   border-radius: 4px;
+  align-items: center;
+  justify-content: center;
 }
 
 
